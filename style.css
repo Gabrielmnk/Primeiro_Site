@@ -22,6 +22,7 @@ body {
     color: #fff;
     font-size: 1rem;
     font-family: sans-serif;
+
 }
 
 .container {
@@ -34,6 +35,7 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     max-height: 90px;
     background: black;
@@ -104,6 +106,7 @@ main button:hover {
 
 .picture img {
     border-radius: 20px;
+
 }
 
 footer {
@@ -135,6 +138,6 @@ footer .social ul li {
 
 @media(max-width:682px) {
     .picture img {
-        display: none;
+        width: 300px;
     }
 }
